@@ -2,7 +2,10 @@ AIRLINE DEMO
 This is a demo application. It exposes an API to create and search for flight reservations.
 
 Getting started:
-The application can be run on docker using the 'docker-compose up' command from the main demo folder.
+The application can be run on docker using the following commands in main project folder:
+docker-compose build
+docker-compose up
+
 This app is configured for the windows docker host 192.168.99.100. If using another operating system or a different docker ip,
 the spring.data.mongodb.host property must be modified at the application.properties file.
 
